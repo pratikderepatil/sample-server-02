@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express.Router();
 const fs = require("fs");
-const db = require("./db.json");
+const db = require("../db.json");
 
 app.get("", (req, res) => {
 	console.log(req.method, res.url);
